@@ -30,8 +30,7 @@ public class modChallenges
 								{
 									System.out.println(i);
 									if ((i%3 == 0)&&(i%5 == 0))
-										{
-											
+										{	
 											System.out.println("FizzBuzz");
 										}
 									else if(i%3 == 0) 
@@ -42,6 +41,10 @@ public class modChallenges
 										{
 											System.out.println("Buzz");
 										} 
+									else 
+										{
+											System.out.println(i);
+										}
 								}
 				}		
 		
